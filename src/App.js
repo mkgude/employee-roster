@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
-import Section from "./components/Section";
+import Search from "./components/Search";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div>
       <Header />
-      <Section />
+      <Search />
+      <Table />
     </div>
   );
 }

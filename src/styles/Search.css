@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.headshot {
-  width: 50px;
-  height: auto;
+input {
+  width: 300px;
+  margin: "0 auto";
 }

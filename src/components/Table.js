@@ -1,13 +1,8 @@
 import React from "react";
-import "../styles/Section.css";
 
-// By importing the Section.css file, it is added to the DOM whenever this component loads
-function Section() {
+function Table() {
   return (
-    <section className="search">
-      <h2>SEARCH</h2>
-      {/* input bar to search for employee */}
-      <p>Employee List</p>
+    <div>
       {/* listed out employees in a table and return only one employee when searching */}
       <table className="table">
         <thead>
@@ -35,8 +30,8 @@ function Section() {
           </tr>
         </tbody>
       </table>
-    </section>
+    </div>
   );
 }
 
-export default Section;
+export default Table;

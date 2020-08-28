@@ -1,14 +1,14 @@
 import React from "react";
-import "../styles/Header.css";
+import "./style.css";
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
-
 function Header() {
   return (
     <header className="header">
       <h1>Employee Directory</h1>
     </header>
   );
+  // {props.children} see ex. 12
 }
 
 export default Header;

@@ -6,9 +6,10 @@ import employee from "../../employees.json";
 class Table extends React.Component {
   state = {
     employee: employee,
+    employeesArray: employee,
     resultOrdered: [],
+    resultFiltered: [],
     search: "",
-    filterArray: employee,
   };
   //sort by alphabetical ascending order
   sortByName = () => {
@@ -36,6 +37,19 @@ class Table extends React.Component {
     });
   };
 
+  // filterEmployees = (e) => {
+  //   debugger;
+  //   // const name = e.target.name;
+  //   let allEmployee = this.state.employee;
+  //   // console.log(userType);
+  //   let newEmployee = allEmployee.filter((employee) =>
+  //     employee.name.toLowerCase().includes(e.target.value.toLowerCase())
+  //   );
+  //   console.log(newEmployee);
+  //   this.setState({
+  //     filteredEmployees: newEmployee,
+  //   });
+  // };
   renderEmployee = () => {
     let filteredEmployee = this.state.employee;
     this.setState({
@@ -46,7 +60,7 @@ class Table extends React.Component {
   };
 
   onchange = (e) => {
-    this.setState({ search: e.target.value });
+    this.setState({ search: e.target.value.toLowerCase() });
   };
 
   render() {

@@ -6,7 +6,7 @@ import employee from "../../employees.json";
 class Table extends React.Component {
   state = {
     employee: employee,
-    // employeesArray: employee,
+    employeesArray: employee,
     resultOrdered: [],
     resultFiltered: employee,
     search: "",
@@ -38,9 +38,8 @@ class Table extends React.Component {
   };
 
   renderEmployee = () => {
-    let filteredEmployee = this.state.employee;
     this.setState({
-      resultFiltered: filteredEmployee.filter((employee) => {
+      employee: employee.filter((employee) => {
         return employee.name
           .toLowerCase()
           .includes(this.state.search.toLowerCase());
@@ -49,9 +48,8 @@ class Table extends React.Component {
   };
 
   onchange = (e) => {
-    this.setState({ search: e.target.value });
+    this.setState({ search: e.target.value }, () => this.renderEmployee());
     console.log(this.state.search);
-    this.renderEmployee();
   };
 
   render() {
@@ -74,7 +72,7 @@ class Table extends React.Component {
               </tr>
             </thead>
             <tbody>
-              {this.state.resultFiltered.map((employee) => (
+              {this.state.employee.map((employee) => (
                 <tr key={employee.id}>
                   <td>
                     <img

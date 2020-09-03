@@ -6,9 +6,9 @@ import employee from "../../employees.json";
 class Table extends React.Component {
   state = {
     employee: employee,
-    employeesArray: employee,
+    // employeesArray: employee,
     resultOrdered: [],
-    resultFiltered: [],
+    resultFiltered: employee,
     search: "",
   };
   //sort by alphabetical ascending order
@@ -37,30 +37,21 @@ class Table extends React.Component {
     });
   };
 
-  // filterEmployees = (e) => {
-  //   debugger;
-  //   // const name = e.target.name;
-  //   let allEmployee = this.state.employee;
-  //   // console.log(userType);
-  //   let newEmployee = allEmployee.filter((employee) =>
-  //     employee.name.toLowerCase().includes(e.target.value.toLowerCase())
-  //   );
-  //   console.log(newEmployee);
-  //   this.setState({
-  //     filteredEmployees: newEmployee,
-  //   });
-  // };
   renderEmployee = () => {
     let filteredEmployee = this.state.employee;
     this.setState({
-      employee: filteredEmployee.filter((employee) => {
-        return Object.values(employee).includes(this.state.search);
+      resultFiltered: filteredEmployee.filter((employee) => {
+        return employee.name
+          .toLowerCase()
+          .includes(this.state.search.toLowerCase());
       }),
     });
   };
 
   onchange = (e) => {
-    this.setState({ search: e.target.value.toLowerCase() });
+    this.setState({ search: e.target.value });
+    console.log(this.state.search);
+    this.renderEmployee();
   };
 
   render() {
@@ -83,7 +74,7 @@ class Table extends React.Component {
               </tr>
             </thead>
             <tbody>
-              {this.state.employee.map((employee) => (
+              {this.state.resultFiltered.map((employee) => (
                 <tr key={employee.id}>
                   <td>
                     <img

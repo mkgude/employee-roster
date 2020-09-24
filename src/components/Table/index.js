@@ -6,9 +6,8 @@ import employee from "../../employees.json";
 class Table extends React.Component {
   state = {
     employee: employee,
-    employeesArray: employee,
+    // employeesArray: employee,
     resultOrdered: [],
-    resultFiltered: employee,
     search: "",
   };
   //sort by alphabetical ascending order

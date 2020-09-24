@@ -1,14 +1,15 @@
 # Employee Database
 
-#### Link
-
-- [GitHub Repository Link](https://github.com/mkgude)
-- [Heroku Link](https://dry-mountain-53041.herokuapp.com/)
-
 ### Table of Contents
 
-1. [Description](#description)
-2. [Link](#link)
+1. [Links](#links)
+2. [Description](#description)
+3. [Usage](#usage)
+
+## Links
+
+- [Deployed Link](https://dry-mountain-53041.herokuapp.com/)
+- [GitHub Link](https://github.com/mkgude/employee-roster)
 
 ## Description
 

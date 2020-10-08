@@ -5,7 +5,7 @@ class Search extends React.Component {
   render() {
     return (
       <div className="search">
-        <h2>Look for an employee below...</h2>
+        <h2>Look for a leading lady below...</h2>
         <input
           className="form-control"
           type="text"

@@ -84,7 +84,7 @@ class Table extends React.Component {
                   <td>{employee.role}</td>
                   <td>{employee.email}</td>
                   <td>
-                    <a href="{employee.page}">Link</a>
+                    <a href={employee.page}>Link</a>
                   </td>
                 </tr>
               ))}

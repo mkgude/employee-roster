@@ -5,10 +5,13 @@ import "./style.css";
 function Header() {
   return (
     <header className="header">
-      <h1>TIMES 25 Most Powerful Women of the Past Century</h1>
-      <a href="http://content.time.com/time/specials/packages/0,28757,2029774,00.html">
+      <a
+        className="article-link"
+        href="http://content.time.com/time/specials/packages/0,28757,2029774,00.html"
+      >
         link to article
       </a>
+      <h1>TIMES 25 Most Powerful Women of the Past Century</h1>
     </header>
   );
   // {props.children} see ex. 12

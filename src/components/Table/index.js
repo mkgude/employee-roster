@@ -59,15 +59,15 @@ class Table extends React.Component {
           <table className="table">
             <thead>
               <tr>
-                <th scope="col">Headshot</th>
+                <th scope="col">Photo</th>
                 <th scope="col">
                   <button type="button" onClick={this.handleClick}>
                     Name
                   </button>
                 </th>
-                <th scope="col">Phone</th>
-                <th scope="col">Email</th>
                 <th scope="col">Role</th>
+                <th scope="col">Years</th>
+                <th scope="col">Learn More</th>
               </tr>
             </thead>
             <tbody>
@@ -81,9 +81,11 @@ class Table extends React.Component {
                     />
                   </td>
                   <td>{employee.name}</td>
-                  <td>{employee.phone}</td>
-                  <td>{employee.email}</td>
                   <td>{employee.role}</td>
+                  <td>{employee.email}</td>
+                  <td>
+                    <a href="{employee.page}">Link</a>
+                  </td>
                 </tr>
               ))}
             </tbody>

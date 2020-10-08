@@ -1,18 +1,202 @@
 [
   {
-    "id": 1,
-    "headshot": "https://bloximages.chicago2.vip.townnews.com/mtstandard.com/content/tncms/assets/v3/editorial/0/c3/0c39eaf7-4d14-551e-b600-d1475ee104f2/5eeb53ddccdf0.image.jpg",
-    "name": "Oprah Winfrey",
-    "phone": "#########",
-    "email": "oprah@mycompany.com",
-    "role": "President"
+    "id": 3,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/jane_addams.jpg",
+    "name": "Jane Addams",
+    "role": "Political Acitvist",
+    "email": "(1860-1935)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031837,00.html"
   },
   {
-    "id": 2,
-    "headshot": "https://www.marieclaire.com.au/media/43935/anne-frank.jpg?width=720&center=0.0,0.0",
-    "name": "Anne Frank",
-    "phone": "#########",
-    "email": "anne@mycompany.com",
-    "role": "Content Writer"
+    "id": 4,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/corazon_aquino.jpg",
+    "name": "Corazon Aquino",
+    "role": "President of the Philippines",
+    "email": "(1933-2009)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031847,00.html"
+  },
+  {
+    "id": 5,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/rachel_carson.jpg",
+    "name": "Rachel Carson",
+    "role": "Author",
+    "email": "(1907-1964)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031856,00.html"
+  },
+  {
+    "id": 6,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/coco_chanel.jpg",
+    "name": "Coco Chanel",
+    "role": "Fashion Designer",
+    "email": "(1883-1971)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031804,00.html"
+  },
+  {
+    "id": 7,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/julia_child.jpg",
+    "name": "Julia Child",
+    "role": "Recipe Book Author",
+    "email": "(1912-2004)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031824,00.html"
+  },
+  {
+    "id": 8,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/hillary_clinton.jpg",
+    "name": "Hillary Clinton",
+    "role": "Secretary of State",
+    "email": "(1947-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031827,00.html"
+  },
+  {
+    "id": 9,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/marie_curie.jpg",
+    "name": "Marie Curie",
+    "role": "Scientist",
+    "email": "(1867-1934)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031822,00.html"
+  },
+  {
+    "id": 10,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/aretha_franklin.jpg",
+    "name": "Aretha Franklin",
+    "role": "Singer",
+    "email": "(1942-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031854,00.html"
+  },
+  {
+    "id": 11,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/indira_gandhi.jpg",
+    "name": "Indira Gandhi",
+    "role": "Prime Minister - India",
+    "email": "(1917-1984)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031817,00.html"
+  },
+  {
+    "id": 12,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/estee_lauder.jpg",
+    "name": "Estée Lauder",
+    "role": "Skin Care Guru",
+    "email": "(1908-2004)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031810,00.html"
+  },
+  {
+    "id": 13,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/madonna.jpg",
+    "name": "Madonna",
+    "role": "Singer",
+    "email": "(1958-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031853,00.html"
+  },
+  {
+    "id": 14,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/margaret_mead.jpg",
+    "name": "Margaret Mead",
+    "role": "Anthropologist",
+    "email": "(1901-1978)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031815,00.html"
+  },
+  {
+    "id": 15,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/golda_meir.jpg",
+    "name": "Golda Meir",
+    "role": "Prime Minister - Israel",
+    "email": "(1898-1978)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031816,00.html"
+  },
+  {
+    "id": 16,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/angela_merkel.jpg",
+    "name": "Angela Merkel",
+    "role": "Chancellor of Germany",
+    "email": "(1954-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031839,00.html"
+  },
+  {
+    "id": 17,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/sandra_day_oconnor.jpg",
+    "name": "Sandra Day O'Connor",
+    "role": "Supreme Court Justice",
+    "email": "(1930-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031812,00.html"
+  },
+  {
+    "id": 18,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/rosa_parks.jpg",
+    "name": "Rosa Parks",
+    "role": "Civil Rights Activist",
+    "email": "(1913-2005)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031835,00.html"
+  },
+  {
+    "id": 19,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/jiang_qing.jpg",
+    "name": "Jiang Qing",
+    "role": "'First Lady' of China",
+    "email": "(1914-1991)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031838,00.html"
+  },
+  {
+    "id": 20,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/eleanor_roosevelt_alt.jpg",
+    "name": "Eleanor Roosevelt",
+    "role": "First Lady - United States",
+    "email": "(1884-1962)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031823,00.html"
+  },
+  {
+    "id": 21,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/margaret_sanger.jpg",
+    "name": "Margaret Sanger",
+    "role": "Political Activist - Planned Parenthood Founder",
+    "email": "(1879-1966)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031825,00.html"
+  },
+  {
+    "id": 22,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/gloria_steinem.jpg",
+    "name": "Gloria Steinem",
+    "role": "Political Activist",
+    "email": "(1934-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031807,00.html"
+  },
+  {
+    "id": 23,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/martha_stewart.jpg",
+    "name": "Martha Stewart",
+    "role": "Lifestyle Guru",
+    "email": "(1941-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031814,00.html"
+  },
+  {
+    "id": 24,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/mother_teresa.jpg",
+    "name": "Mother Teresa",
+    "role": "Catholic Saint",
+    "email": "(1910-1997)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031844,00.html"
+  },
+  {
+    "id": 25,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/margaret_thatcher.jpg",
+    "name": "Margaret Thatcher",
+    "role": "Prime Minister of The United Kingdom",
+    "email": " (1925-2013)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031811,00.html"
+  },
+  {
+    "id": 26,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/oprah.jpg",
+    "name": "Oprah Winfrey",
+    "role": "Lifestyle Guru",
+    "email": "(1954-Present)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031799,00.html"
+  },
+  {
+    "id": 27,
+    "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/virginia_woolf.jpg",
+    "name": "Virginia Woolf",
+    "role": "Novelist",
+    "email": "(1882-1941)",
+    "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031846,00.html"
   }
 ]

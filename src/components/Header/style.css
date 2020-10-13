@@ -1,8 +1,10 @@
 .header {
   background: #b71775;
-  height: 200px;
+  height: auto;
 }
-
+h1 {
+  vertical-align: middle;
+}
 .header h1 {
   margin: 0;
   padding-top: 75px;
@@ -12,5 +14,7 @@
 }
 
 .article-link {
-  justify-content: right;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
 }

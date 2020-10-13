@@ -35,7 +35,7 @@
     "id": 7,
     "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/julia_child.jpg",
     "name": "Julia Child",
-    "role": "Recipe Book Author",
+    "role": "Cook and Author",
     "email": "(1912-2004)",
     "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031824,00.html"
   },
@@ -43,7 +43,7 @@
     "id": 8,
     "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/hillary_clinton.jpg",
     "name": "Hillary Clinton",
-    "role": "Secretary of State",
+    "role": "Former US Secretary of State",
     "email": "(1947-Present)",
     "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031827,00.html"
   },
@@ -75,7 +75,7 @@
     "id": 12,
     "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/estee_lauder.jpg",
     "name": "Estée Lauder",
-    "role": "Skin Care Guru",
+    "role": "Businesswoman",
     "email": "(1908-2004)",
     "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031810,00.html"
   },
@@ -155,7 +155,7 @@
     "id": 22,
     "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/gloria_steinem.jpg",
     "name": "Gloria Steinem",
-    "role": "Political Activist",
+    "role": "Journalist",
     "email": "(1934-Present)",
     "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031807,00.html"
   },
@@ -163,7 +163,7 @@
     "id": 23,
     "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/martha_stewart.jpg",
     "name": "Martha Stewart",
-    "role": "Lifestyle Guru",
+    "role": "American Businesswoman - Lifestyle Guru",
     "email": "(1941-Present)",
     "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031814,00.html"
   },
@@ -187,7 +187,7 @@
     "id": 26,
     "headshot": "http://img.timeinc.net/time/photoessays/2010/powerful_women/oprah.jpg",
     "name": "Oprah Winfrey",
-    "role": "Lifestyle Guru",
+    "role": "American Host",
     "email": "(1954-Present)",
     "page": "http://content.time.com/time/specials/packages/article/0,28804,2029774_2029776_2031799,00.html"
   },

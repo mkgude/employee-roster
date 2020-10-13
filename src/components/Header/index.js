@@ -9,9 +9,13 @@ function Header() {
         className="article-link"
         href="http://content.time.com/time/specials/packages/0,28757,2029774,00.html"
       >
-        link to article
+        article link
       </a>
-      <h1>TIMES 25 Most Powerful Women of the Past Century</h1>
+      <img
+        className="time-logo"
+        src="https://www.logolynx.com/images/logolynx/f1/f179e5b96bc450250af307f80c5af297.png"
+      />
+      <h1>25 Most Powerful Women of the Past Century</h1>
     </header>
   );
   // {props.children} see ex. 12

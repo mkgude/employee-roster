@@ -7,7 +7,7 @@ class Search extends React.Component {
       <div className="search">
         <h2>Look for a leading lady below...</h2>
         <input
-          className="form-control"
+          className="form-control input"
           type="text"
           onChange={this.props.onchange}
           value={this.props.search}

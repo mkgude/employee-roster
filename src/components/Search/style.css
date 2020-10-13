@@ -1,11 +1,10 @@
 .search {
-  background: #f3e5f5;
   padding: 20px;
   justify-content: center;
   text-align: center;
 }
 
-input {
+.input {
   width: 150px;
   margin: 0 auto;
 }

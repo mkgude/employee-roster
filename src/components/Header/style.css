@@ -1,13 +1,14 @@
 .header {
-  background: #b71775;
+  /* background: red */
+  background-image: url("https://images.pexels.com/photos/751373/pexels-photo-751373.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   height: auto;
+  padding-bottom: 50px;
 }
 h1 {
   vertical-align: middle;
 }
 .header h1 {
   margin: 0;
-  padding-top: 75px;
   text-align: center;
   color: white;
   font-size: 3rem;
@@ -17,4 +18,12 @@ h1 {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
+  color: whitesmoke;
+}
+
+.time-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

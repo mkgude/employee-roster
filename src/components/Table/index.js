@@ -56,7 +56,7 @@ class Table extends React.Component {
       <div>
         <Search onchange={this.onchange} search={this.state.search} />
         <div className="container">
-          <table className="table">
+          <table className="table table-borderless table-responsive-sm">
             <thead>
               <tr>
                 <th scope="col">Photo</th>
@@ -66,14 +66,14 @@ class Table extends React.Component {
                   </button>
                 </th>
                 <th scope="col">Role</th>
-                <th scope="col">Years</th>
-                <th scope="col">Learn More</th>
+                <th scope="col">Life</th>
+                <th scope="col">More</th>
               </tr>
             </thead>
             <tbody>
               {this.state.employee.map((employee) => (
                 <tr key={employee.id}>
-                  <td>
+                  <td scope="row">
                     <img
                       src={employee.headshot}
                       alt={employee.name}
